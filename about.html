@@ -2,13 +2,106 @@
 title: about
 aboutActive: active
 ---
+
 <div class="row">
 
 <div class="col-xs-0 col-sm-1 col-md-2 col-lg-2"></div>
 
 <div class="col-xs-12 col-sm-10 col-md-8 col-lg-8">
+    <div class="jumbotron text-center">
+        <h3 class="h2 brand">Markov + composition = Markomposition</h3>
+    </div>
+
     <p>
-    testing
+    Markomposition is a Markov chain poetry generator. It first builds a Markov chain
+    from a given piece of text, then creates a new piece of text by randomly combining
+    related transitions from the Markov chain.
+    </p>
+
+    <p>
+    Greater <i>fusion</i> between different parts of the original text is produced by
+    decreasing the order of the Markov chain used to model the text.
+    </p>
+
+    <br>
+    <h4 class="text-info">What does "Markov chain" even mean?</h4>
+
+    <p>
+    Here's a <a href="/markomposition/markov-chains.html" target="_blank">quick introduction to Markov chains</a> and how they are used in this project! 
+    </p>
+
+    <br>
+    <h4 class="text-info">How should I use Markomposition?</h4>
+    
+    <p>
+    The quality of the output depends on the quantity <i>and</i> quality of the input.
+    </p>
+
+    <p>
+    Poems will feature greater variety if the content has high frequency of repeated phrases.
+    If every word has only one successor, there's only one possible way to build a new poem --
+    and it's the exact order of the original content, if spaced slightly differently.
+    </p>
+
+    <p>
+    Often, the best poems will be produced from a lot of text -- as in, whole book size. The
+    abundance of content provides lots of variety and creates a large model from which 
+    the generator can choose random combinations.
+    </p>
+
+    <p>
+    I provide sample text from <a href="http://www.gutenberg.org/" target="_blank">Project Gutenberg</a> as a starting point. 
+    I would encourage you to browse their online library of free ebooks for other content. You might also consider
+    using screenplays of movies or television shows, newspaper articles or columns, recipes, court transcripts,
+    legal documents, historic records, instruction manuals, textbooks, or any combination of the above -- inspiration for poetry is everywhere!
+    </p>
+
+
+    <br>
+    <h4 class="text-info">How did you make Markomposition?</h4>
+
+    <p>
+    Markomposition was originally adapted from coursework I completed during the Fall 2012 offering of COMP 140 at Rice University.
+    The coursework was in Python, but Markomposition is written in Javascript and many more
+    features than the original script -- and hopefully more on the way!
+    </p>
+
+    <p>
+    The generation of poems with specific rhyme or meter is made possible through the use of the 
+    <a href="http://www.iphod.com/" target="_blank">Irvine Phonotactic Online Dictionary</a>. Shout out to my good friend
+    K.F. for the computational linguistics expertise she shared with me as I developed this project!
+    </p>
+
+    <p>
+    I provide sample text from <a href="http://www.gutenberg.org/" target="_blank">Project Gutenberg</a>
+    for Markomposition. The selections do not appear in their original format, but have been edited to remove prefaces
+    and other text that is not directly the work itself. The Gutenberg ebooks used for this project are:
+    <ul>
+    <li><a href="http://www.gutenberg.org/ebooks/12242" target="_blank"><i>Poems</i> by Emily Dickinson</a></li>
+    <li><a href="http://www.gutenberg.org/ebooks/8800" target="_blank"><i>The Divine Comedy</i> by Dante</a></li>
+    <li><a href="http://www.gutenberg.org/ebooks/2591" target="_blank">Grimm's Fairy Tales</a></li>
+    <li><a href="http://www.gutenberg.org/ebooks/17650" target="_blank">The Sonnets, Triumps, and Other Poems of Petrarch</a></li>
+    <li><a href="http://www.gutenberg.org/ebooks/1" target="_blank">The Declaration of Independence of the United States of America</a></li>
+    <li><a href="http://www.gutenberg.org/ebooks/1524" target="_blank">Hamlet, Prince of Denmark by William Shakespeare</a></li>
+    </ul> 
+    </p>  
+
+    <p>
+    Body text is set in <a href="https://www.google.com/fonts/specimen/News+Cycle" target="_blank">News Cycle</a>
+    font with selected headings set in <a href="https://www.google.com/fonts/specimen/Pompiere" target="_blank">Pompiere</a> font.
+    </p>  
+
+    <br>
+    <h4 class="text-info">What else have you made?</h4>
+
+    <p>
+    My latest project is a math and logic game called <a href="http://mariechatfield.com/onetwotree/" target="_blank">one.two.tree</a>.
+    I created it as a fun way to improve my arithmetic skills.
+    </p>
+
+    <p>
+    For more of my past projects or work experience, here's my <a href="http://mariechatfield.com/" target="_blank">portfolio</a>. 
+    Want to know what I'm doing next? <a href="https://github.com/mchat" target="_blank">Follow me on GitHub</a>!
     </p>
 </div>
 
